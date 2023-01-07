@@ -1,0 +1,36 @@
+.header {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  padding: 10px;
+  margin: 0 5px;
+  color: #0f6e4b;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: aqua;
+}
+
+.logo {
+  display: flex;
+  width: 60px;
+  height: 60px;
+}
+
